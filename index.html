@@ -3,36 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name | Resume</title>
+    <title>Your Name | Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1>Your Name</h1>
-        <p>Professional Title (e.g., Software Engineer)</p>
-    </header>
+    <div class="background-blobs"></div>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>A brief, engaging summary of your skills and what you bring to the table.</p>
-    </section>
+    <main class="glass-container">
+        <header class="hero">
+            <div class="profile-info">
+                <h1>Hi, I'm <span class="highlight">Your Name</span></h1>
+                <p class="tagline">Creative Designer & Strategic Thinker</p>
+                <div class="social-links">
+                    <a href="#">LinkedIn</a> • <a href="#">GitHub</a> • <a href="#">Email</a>
+                </div>
+            </div>
+        </header>
 
-    <section id="experience">
-        <h2>Experience</h2>
-        <div class="job">
-            <h3>Job Title - Company Name</h3>
-            <span>2022 – Present</span>
-            <ul>
-                <li>Accomplishment one with measurable results.</li>
-                <li>Key responsibility or project lead.</li>
-            </ul>
-        </div>
-    </section>
+        <section id="about">
+            <h2>About</h2>
+            <p>I bridge the gap between complex problems and elegant solutions. With a background in [Your Field], I focus on building things that matter.</p>
+        </section>
 
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
-        <p><a href="https://linkedin.com/in/yourprofile">LinkedIn Profile</a></p>
-    </section>
+        <section id="skills">
+            <h2>Expertise</h2>
+            <div class="skills-grid">
+                <div class="skill-card"><h3>Strategy</h3><p>Planning and execution</p></div>
+                <div class="skill-card"><h3>Design</h3><p>UI/UX & Branding</p></div>
+                <div class="skill-card"><h3>Dev</h3><p>Frontend & Logic</p></div>
+            </div>
+        </section>
+
+        <section id="experience">
+            <h2>Experience</h2>
+            <div class="timeline-item">
+                <div class="time">2023 - Present</div>
+                <div class="detail">
+                    <h3>Senior Lead @ Company</h3>
+                    <p>Led a team of 5 to deliver a high-impact project that increased user retention by 40%.</p>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>© 2026 Crafted by Your Name</p>
+        </footer>
+    </main>
 </body>
 </html>
